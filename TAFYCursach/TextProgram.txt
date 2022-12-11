@@ -1,0 +1,16 @@
+﻿dim IntegerA, IntegerB int 
+dim RealA float 
+dim BoolA bool 
+IntegerA := 10d :
+IntegerB := 31h :
+RealA := 42.123E+24 :
+(* this comments *)
+
+for IntegerA := 15d to IntegerA plus 123d writeln IntegerA next :
+
+if (IntegerA NE IntegerB) 
+writeln IntegerA 
+else writeln IntegerB :
+
+while (IntegerB LE IntegerB) writeln IntegerB :
+end
